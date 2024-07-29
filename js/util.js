@@ -84,7 +84,7 @@ export const util = (() => {
 
     const nomorSesi = () => {
         const sesi = (new URLSearchParams(window.location.search)).get('sesi');
-        const sesiElement = document.getElementById('sesi-number');
+        const sesiElement = document.getElementById('sesi-nomor');
         const formSesiElement = document.getElementById('form-sesi');
 
         if (!sesiElement) {
